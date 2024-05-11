@@ -1,0 +1,78 @@
+.contact {
+    background-color: #0f0f0f;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 30px;
+}
+
+.contact-container form {
+    margin-top: 30px;;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(179, 179, 179);
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.contact-container textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-container .btn-send {
+    padding: 10px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+.contact-container button {
+    padding: 7px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-send address {
+    color: rgb(142, 142, 142);
+}
+
+.social-links {
+    padding-top: 30px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    cursor: pointer;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 700px) {
+    .contact-container .btn-send {
+        padding: 10px;
+        display: initial;
+        justify-content: none;
+    }
+}

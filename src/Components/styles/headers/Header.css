@@ -1,0 +1,92 @@
+.container {
+    padding: 0 150px;
+    margin: 0 auto;
+}
+
+.back {
+    padding: 30px 0;
+    position: fixed;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: rgba(13, 13, 13, 0.897);
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border: 3px solid rgb(58, 255, 88);
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(142, 142, 142);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: whitesmoke;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .back {
+        padding: 45px 0;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(13, 13, 13, 0.897);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+    
+}
