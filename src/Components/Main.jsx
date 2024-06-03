@@ -96,7 +96,7 @@ export default function Contenido() {
                                 <div className='desc'>
                                     <h3>RedLife Foro</h3>
                                     <p>
-                                        RedLife es un foro simple 
+                                        RedLife es un foro simple.
                                     </p>
                                 </div>
                             </div>
