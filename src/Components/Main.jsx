@@ -88,15 +88,15 @@ export default function Contenido() {
                 <h2 className='title'><span>Proyectos</span></h2>
                 <div className='projects-container'>
                     <div className="card">
-                        <a href="#">
+                        <a href="https://redlife-foro.web.app/">
                             <div className="card-project">
                                 <div>
                                     <img src={incognito} alt="¿?" />
                                 </div>
                                 <div className='desc'>
-                                    <h3>¡PROXIMAMENTE!</h3>
+                                    <h3>RedLife Foro</h3>
                                     <p>
-                                        Proyecto en construcción.
+                                        RedLife es un foro simple 
                                     </p>
                                 </div>
                             </div>
